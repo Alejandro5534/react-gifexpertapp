@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <AddCategory debe de msotrarse correctament 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <input
+    onChange={[Function]}
+    placeholder="Escribe una o mas palabras clave para que encuentres, entre 10 GIFS, tu preferido"
+    type="text"
+    value=""
+  />
+</form>
+`;

@@ -5,12 +5,14 @@ export const AddCategory = ({setCategories}) => {
     const [inputValue, setinputValue] = useState('')
     const handleInputChange = (e)=> {
         setinputValue(e.target.value);
+        console.log('handleInputChange llamado')
     }
     const handleSubmit = (e) => {
         e.preventDefault();
         if (inputValue.trim().length>2) {
             setCategories(categories => [ inputValue,...categories])
             setinputValue('')
+            
         }
         // console.log('Submit Hecho')
     }

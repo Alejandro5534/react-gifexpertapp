@@ -4,7 +4,8 @@
 }
 
 body{
-  padding: 60px;
+  margin: 0;
+  /* padding: 60px; */
   background-color: #21232A;
 }
 input {
